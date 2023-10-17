@@ -1,0 +1,107 @@
+.bottom-wrapper {
+  background-color: #fff;
+}
+
+.bottom-container {
+  border-radius: 6px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-header-right-box {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.bottom-search-container {
+  gap: 6px;
+  display: flex;
+  background: #d2d2d23d;
+  align-items: center;
+  padding: 2px 4px;
+  border-radius: 7px;
+  width: 150px;
+}
+
+.last-days-box {
+  display: flex;
+}
+
+.last-text {
+  font-size: small;
+  color: #898989;
+}
+
+.product-sell-text {
+  font-size: large;
+  font-weight: 700;
+}
+
+.table-headers {
+  font-size: small;
+  color: #898989;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stock-price-sales-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 104px;
+}
+
+.divider-line {
+  height: 1px;
+  background-color: #ababab;
+}
+
+.product-name-container {
+  display: flex;
+  gap: 12px;
+  padding: 12px 14px;
+}
+
+.product-image {
+  border-radius: 6px;
+}
+
+.product-name-value {
+  font-weight: 700;
+  color: black;
+}
+
+.table-headers-values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stock-price-sales-values-container {
+  display: flex;
+  padding-right: 57px;
+  gap: 85px;
+}
+
+.product-desc {
+  color: #898989;
+  font-size: small;
+}
+
+.stock-value,
+.sales-value {
+  color: #898989;
+  font-weight: 600;
+}
+
+.price-value {
+  font-weight: 700;
+}

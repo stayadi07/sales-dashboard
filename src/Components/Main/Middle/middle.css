@@ -1,0 +1,128 @@
+.middle-content-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.bar-graph-header-container {
+  background-color: #fff;
+  width: 67%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px;
+}
+
+.bar-graph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overview-text {
+  font-size: large;
+  font-weight: 700;
+}
+
+.monthly-earning-text {
+  font-size: small;
+  color: #898989;
+}
+
+.customers-container {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 33%;
+}
+
+.bar-graph-right-header-box {
+  display: flex;
+}
+
+.quarterly-text {
+  color: #898989;
+  font-size: small;
+}
+
+.bars-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.bars {
+  width: 38px;
+  background-color: #cececee2;
+  border-radius: 6px;
+}
+
+.bar-graph-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bars.bar-7 {
+  background-color: royalblue;
+}
+
+.months {
+  color: #5a5a5a;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #ca3d3de2;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.customers-text {
+  font-size: large;
+  font-weight: 700;
+}
+
+.customers-tagline {
+  font-size: small;
+  color: #898989;
+}
+
+.customers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 12px 14px;
+}
+
+.donuts-graph-container {
+  display: flex;
+  justify-content: center;
+}
+
+.percent {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.new-customers {
+  font-weight: 400;
+}
+
+.new-customers-container {
+  position: absolute;
+  top: 54%;
+  text-align: center;
+  width: 71px;
+}

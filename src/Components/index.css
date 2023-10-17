@@ -1,0 +1,7 @@
+.right-side-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  justify-content: flex-start;
+  gap: 29px;
+}
