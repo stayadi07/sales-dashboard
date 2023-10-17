@@ -1,3 +1,7 @@
+# App Preview
+![image](https://github.com/stayadi07/sales-dashboard/assets/98824627/6ba4c04f-3a79-4828-b954-08bc5aacb8aa)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
